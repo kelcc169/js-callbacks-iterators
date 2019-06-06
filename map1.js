@@ -6,3 +6,8 @@ var mneumonics = ['My Very Excellent Mother Just Sent Me Nine Pizzas', 'Please E
 
 // Your code here!
 
+var words = mneumonics.map( function (devices) {
+    return devices.split(' ');
+});
+
+console.log(words);
